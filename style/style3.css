@@ -1,0 +1,104 @@
+@charset "utf-8";
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	width:100%;
+	background-image:url(../img/bg.jpg);
+	background-size:cover;
+}
+.wrap
+{
+	background-color:#FFF;
+	width:80%;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	clear:both;
+}
+.wrap header h1
+{	
+	font-family:"Comic Sans MS", cursive;
+	font-size:30px;
+	margin-right:11%;
+	margin-top:40px;
+	float:right;
+}
+.wrap header img
+{
+	margin-top:40px;
+	margin-left:15%;
+	background-color:#C3F;
+	height:150px;
+	width:150px;
+	float:left;
+}
+.wrap nav
+{
+	width:80%;
+}
+.wrap nav ul
+{
+	float:right;
+	width:90%;
+	margin-top:12px;
+	margin-right:-750px;
+	list-style:none;
+}
+.wrap nav ul li
+{
+	margin-left:35px;
+	margin-right:25px;
+	display: inline;
+	
+}
+.wrap nav ul li a
+{
+	color:#999;
+	font-size:20px;
+	text-decoration:none;
+	font-weight:bold;
+}
+.wrap nav ul li a:hover
+{
+	color:#F00;
+}
+/*contact_us_body*/
+.contactus_body
+{
+	margin-left:15px;
+	margin-right:15px;
+	margin-top:250px;
+	border-top: inset .5px #CCFFFF;
+}
+.contactus_body h2
+{
+	color: #0090d5;
+    font: normal bold 36px/1 "Interstate Bold", "Trebuchet MS", sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+	font-size:38px;
+}
+.form
+{
+	padding-bottom:15px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	margin-left:30px;	
+	float:left;
+}
+.form input
+{
+	width:100%;
+}
+.contact_details
+{
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:2;
+	margin-right:30px;
+	float: right;
+	border-bottom:#000 inset .5px;
+}
+/* CSS Document */
+

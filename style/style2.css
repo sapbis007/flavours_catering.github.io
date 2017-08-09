@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	width:100%;
+	background-image:url(../img/bg.jpg);
+	background-size:cover;
+}
+.wrap
+{
+	background-color:#FFF;
+	width:80%;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	clear:both;
+}
+.wrap header h1
+{	
+	font-family:"Comic Sans MS", cursive;
+	font-size:40px;
+	margin-right:11%;
+	float:right;
+}
+.wrap header img
+{
+	margin-top:40px;
+	margin-left:20%;
+	background-color:#C3F;
+	height:170px;
+	width:170px;
+	float:left;
+}
+.wrap nav
+{
+	width:90%;
+}
+.wrap nav ul
+{
+	float:right;
+	width:90%;
+	margin-top:-20px;
+	margin-right:-610px;
+	list-style:none;
+}
+.wrap nav ul li
+{
+	margin-left:35px;
+	margin-right:25px;
+	display: inline;
+	
+}
+.wrap nav ul li a
+{
+	color:#999;
+	font-size:20px;
+	text-decoration:none;
+	font-weight:bold;
+}
+.wrap nav ul li a:hover
+{
+	color:#F00;
+}
